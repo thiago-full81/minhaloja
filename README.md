@@ -24,7 +24,7 @@ A API JSON Server serve `db.json` em `http://localhost:3000`; a aplicação Vite
 Crie um arquivo `.env` na raiz quando precisar alterar os endereços padrão:
 
 ```dotenv
-VITE_API_URL=http://192.168.15.1:3000
+VITE_API_URL=/api  # Produção no Netlify; usa o proxy configurado em netlify.toml
 VITE_STORE_PHONE=+55819886469730
 ```
 
